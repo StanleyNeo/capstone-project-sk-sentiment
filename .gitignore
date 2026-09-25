@@ -1,0 +1,9 @@
+﻿.venv/
+__pycache__/
+*.pyc
+.env
+api/.env
+data/raw/*.csv
+*.joblib
+baseline.joblib
+node_modules/
