@@ -2,6 +2,8 @@ import { useState } from 'react';
 import axios from 'axios';
 import './App.css';
 
+const API = import.meta.env.VITE_API_URL || 'http://localhost:5001';
+
 function App() {
   const [text, setText] = useState('');
   const [result, setResult] = useState(null);
@@ -17,8 +19,8 @@ function App() {
     setResult(null);
 
     try {
-      // Connect to the Express Gateway on port 5000
-      const response = await axios.post('http://localhost:5000/api/sentiment', {
+      // Connect to FastAPI on Render
+      const response = await axios.post(`${API}/sentiment`, {
         text: text,
       });
       setResult(response.data.data);
