@@ -1,4 +1,20 @@
-﻿# IMDB Sentiment Analyzer — v1.0
+﻿# IMDB Sentiment Analyzer
+
+🔗 **Live demo:** https://capstone-project-sk-sentiment-ui.vercel.app
+
+🔗 **API:** https://capstone-project-sk-sentiment-api.onrender.com
+
+🔗 **API docs:** https://capstone-project-sk-sentiment-api.onrender.com/docs
+
+
+**Stack:** TF-IDF + LogisticRegression (F1 0.90) · FastAPI on Render · React (Vite) on Vercel
+
+> ⚠️ Free tier: backend spins down after 15 min of inactivity. First request may take ~50s.
+
+---
+
+
+# IMDB Sentiment Analyzer — v1.0
 
 An end-to-end Machine Learning web application that predicts the sentiment of movie reviews. 
 
